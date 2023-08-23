@@ -1,0 +1,74 @@
+ffprobe version 6.0 Copyright (c) 2007-2023 the FFmpeg developers
+  built with Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+  configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/6.0 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libaribb24 --enable-libbluray --enable-libdav1d --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libsvtav1 --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-audiotoolbox --enable-neon
+  libavutil      58.  2.100 / 58.  2.100
+  libavcodec     60.  3.100 / 60.  3.100
+  libavformat    60.  3.100 / 60.  3.100
+  libavdevice    60.  1.100 / 60.  1.100
+  libavfilter     9.  3.100 /  9.  3.100
+  libswscale      7.  1.100 /  7.  1.100
+  libswresample   4. 10.100 /  4. 10.100
+  libpostproc    57.  1.100 / 57.  1.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/hito.cai/Downloads/IMG_2504.MOV':
+  Metadata:
+    major_brand     : qt
+    minor_version   : 0
+    compatible_brands: qt
+    creation_time   : 2023-06-21T11:33:42.000000Z
+    com.apple.quicktime.location.accuracy.horizontal: 35.000000
+    com.apple.quicktime.location.ISO6709: +22.5168+113.9098+067.280/
+    com.apple.quicktime.make: Apple
+    com.apple.quicktime.model: iPhone 13 Pro
+    com.apple.quicktime.software: 16.5
+    com.apple.quicktime.creationdate: 2023-06-21T19:33:42+0800
+  Duration: 00:00:11.02, start: 0.000000, bitrate: 53026 kb/s
+  Stream #0:0[0x1](und): Video: hevc (Main 10) (hvc1 / 0x31637668), yuv420p10le(tv, bt2020nc/bt2020/arib-std-b67), 3840x2160, 52754 kb/s, 59.97 fps, 60 tbr, 600 tbn (default)
+    Metadata:
+      creation_time   : 2023-06-21T11:33:42.000000Z
+      handler_name    : Core Media Video
+      vendor_id       : [0][0][0][0]
+      encoder         : HEVC
+    Side data:
+      DOVI configuration record: version: 1.0, profile: 8, level: 10, rpu flag: 1, el flag: 0, bl flag: 1, compatibility id: 4
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 179 kb/s (default)
+    Metadata:
+      creation_time   : 2023-06-21T11:33:42.000000Z
+      handler_name    : Core Media Audio
+      vendor_id       : [0][0][0][0]
+  Stream #0:2[0x3](und): Data: none (mebx / 0x7862656D), 0 kb/s (default)
+    Metadata:
+      creation_time   : 2023-06-21T11:33:42.000000Z
+      handler_name    : Core Media Metadata
+  Stream #0:3[0x4](und): Data: none (mebx / 0x7862656D), 0 kb/s (default)
+    Metadata:
+      creation_time   : 2023-06-21T11:33:42.000000Z
+      handler_name    : Core Media Metadata
+  Stream #0:4[0x5](und): Data: none (mebx / 0x7862656D), 69 kb/s (default)
+    Metadata:
+      creation_time   : 2023-06-21T11:33:42.000000Z
+      handler_name    : Core Media Metadata
+Unsupported codec with id 0 for input stream 2
+Unsupported codec with id 0 for input stream 3
+Unsupported codec with id 0 for input stream 4
+[FORMAT]
+filename=/Users/hito.cai/Downloads/IMG_2504.MOV
+nb_streams=5
+nb_programs=0
+format_name=mov,mp4,m4a,3gp,3g2,mj2
+format_long_name=QuickTime / MOV
+start_time=0.000000
+duration=11.020000
+size=73044138
+bit_rate=53026597
+probe_score=100
+TAG:major_brand=qt
+TAG:minor_version=0
+TAG:compatible_brands=qt
+TAG:creation_time=2023-06-21T11:33:42.000000Z
+TAG:com.apple.quicktime.location.accuracy.horizontal=35.000000
+TAG:com.apple.quicktime.location.ISO6709=+22.5168+113.9098+067.280/
+TAG:com.apple.quicktime.make=Apple
+TAG:com.apple.quicktime.model=iPhone 13 Pro
+TAG:com.apple.quicktime.software=16.5
+TAG:com.apple.quicktime.creationdate=2023-06-21T19:33:42+0800
+[/FORMAT]
