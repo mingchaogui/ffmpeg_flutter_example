@@ -78,10 +78,11 @@ class _TranscodingPageState extends State<TranscodingPage> {
           if (_inFile != null) _buildFileWidget('📁 In File', _inFile!),
           if (_outFile != null) _buildFileWidget('📁 Out File', _outFile!),
           Expanded(
-            child: SingleChildScrollView(
-              child: Container(
-                color: Colors.grey.shade100,
-                padding: const EdgeInsets.all(20),
+            child: Container(
+              color: Colors.grey.shade100,
+              padding: const EdgeInsets.all(20),
+              child: SingleChildScrollView(
+                reverse: true,
                 child: ValueListenableBuilder<String>(
                   valueListenable: _logNotifier,
                   builder: (BuildContext context, String value, Widget? child) {
